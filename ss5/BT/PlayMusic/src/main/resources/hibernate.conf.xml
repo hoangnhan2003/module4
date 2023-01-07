@@ -5,14 +5,14 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/demo_a0522i1?createDatabaseIfNotExist=true</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/PlayMusic?createDatabaseIfNotExist=true</property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">28101998</property>
+        <property name="hibernate.connection.password"></property>
 <!--        Hiển thị cau lệnh query -->
         <property name="show_sql">true</property>
 <!--        Tự động update nếu entity có thay đổi.-->
 <!--        Ngoài ra còn có create và none.-->
         <property name="hbm2ddl.auto">update</property>
-        <mapping class="com.codegym.model.Student"/>
+        <mapping class="com.example.model.Song"/>
     </session-factory>
 </hibernate-configuration>

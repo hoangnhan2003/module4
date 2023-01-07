@@ -4,8 +4,8 @@ import com.example.model.Student;
 
 import java.util.List;
 
-public interface IStudentRepo {
+public interface IStudentRepository {
     List<Student> getAll();
-    void Save(Student student);
+    void save(Student student);
     Student findById(Integer id);
 }

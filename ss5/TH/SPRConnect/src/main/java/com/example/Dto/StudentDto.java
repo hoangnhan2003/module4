@@ -1,12 +1,12 @@
 package com.example.Dto;
 
-public class StudentListDto {
+public class StudentDto {
     private Integer codeStudent;
     private String nameStudent;
     private Double point;
     private Integer gender;
 
-    public StudentListDto() {
+    public StudentDto() {
     }
 
     public Integer getCodeStudent() {
@@ -21,14 +21,14 @@ public class StudentListDto {
         this.point = point;
     }
 
-    public StudentListDto(Integer codeStudent, String nameStudent, Double point, Integer gender) {
+    public StudentDto(Integer codeStudent, String nameStudent, Double point, Integer gender) {
         this.codeStudent = codeStudent;
         this.nameStudent = nameStudent;
         this.point = point;
         this.gender = gender;
     }
 
-    public StudentListDto(String nameStudent, double point, Integer gender) {
+    public StudentDto(String nameStudent, double point, Integer gender) {
         this.nameStudent = nameStudent;
         this.point = point;
         this.gender = gender;
